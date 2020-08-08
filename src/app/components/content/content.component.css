@@ -1,0 +1,9 @@
+.control {
+	width: 40%;
+}
+img {
+	width: 100%;
+	border: 3px solid black;
+	border-radius: 5px;
+
+}

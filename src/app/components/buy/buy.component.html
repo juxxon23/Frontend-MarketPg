@@ -1,0 +1,19 @@
+<div class="container-fluid">
+	<form class="text-center m-2" action="/buy" method="post" enctype="multipart/form-data"> 
+		<label for="categories">Categories</label><br>
+		<select id="categories" name="categorie">
+			<option value="anim">Animals</option>
+	    	<option value="prog">Programming Languages</option>
+	    	<option value="lang">Languages</option>
+	    	<option value="coun">Countries</option>
+	    	<option value="food">Food</option>
+	    	<option value="spor">Sport</option>
+		</select><br><br>
+		<div class="form-group">
+			<label for="num">Quantity</label><br>
+			<input type="number" min="1" max="5" id="num" name="num"><br>
+	 	</div>
+	 	<button type="submit" class="btn btn-warning border-dark">Download</button>
+	</form>
+</div>
+	
